@@ -11,7 +11,18 @@ Number,String,Boolean,Undefined,Null,Object,Symbol.
  var,let,const.
  */
 
- var MyName = ("Noni Gathoni"); //Declaring Variables
- var MyName;// Assigning Variables
+ var myName = ("xxxxxxxx"); //Declaring Variables
+ var myName;// Assigning Variables
 
  
+// INITIALIZING VARIABLES
+// Initializing variables is assigning them a value.
+var a = 9;
+var b = 8;
+ 
+// Variables are case sensitive. Always use camelCase which basically means that the first case will always be small. eg
+
+var properCamelCase = ("This");
+
+
+
