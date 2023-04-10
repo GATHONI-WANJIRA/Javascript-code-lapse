@@ -1,0 +1,1 @@
+// Inline comment. Setting up javascript.
