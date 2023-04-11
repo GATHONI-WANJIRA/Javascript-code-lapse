@@ -66,6 +66,23 @@ console.log(shoppingList);
 //prints out the shopping list [ [ 'milk', 3 ], [ 'flour', 2 ], [ 'eggs', 6 ], [ 'bananas', 5 ] ].
 
 
+// REUSABLE FUNCTIONS.
+// They normally prints out what is assigned as its value everytime its called.
+function reusableFunction(){
+    console.log("Hello world");
+}
+reusableFunction ();
+reusableFunction ();
+reusableFunction ();
+
+//It prints out;
+//  Hello world
+// Hello world
+// Hello world
+
+// I have called the 'reusableFunction' 3 times hence hello world * 3.
+
+
 
 
 
