@@ -41,7 +41,6 @@ console.log(tot);
 /* Length of a string
 */
 
-
 var country = "Jamaica";
 var length = country.length;
 console.log(length);
@@ -49,3 +48,11 @@ console.log(length);
 var firstName = "Janet";
 var firstNameLength = firstName.length;
 console.log(firstNameLength);
+
+// First letter in a string 
+// Always begin by setting which type of a variable you expect. Whether string or number etc
+// With a blank tab ie first line
+
+var firstLetterFirstName = "";
+var firstName = "Botanica";
+console.log(firstName[0]);
