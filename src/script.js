@@ -59,6 +59,18 @@ var firstLetterFirstName = firstName[0]
 console.log(firstLetterFirstName);
 
 
+var firstName = "Noni";
+var secondLetterFirstName = firstName[1]
+console.log(secondLetterFirstName);
+
+
+var town = "Rongai";
+var lastLetterTown = town[town.length -1];
+console.log(lastLetterTown);
+
+
+
+
 // String Immutability.
 // strings value cannot be changed.
 // You cannot replace a letter on a string eg;
@@ -67,3 +79,6 @@ var myCity = "Nairobi";
 myCity[2] = "S"
 
 // This will outright cause an error since you cannot alter strings.
+
+
+// Functions
