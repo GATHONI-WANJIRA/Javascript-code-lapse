@@ -59,6 +59,14 @@ console.log(fruits);
 // prints out [ 'ovacado', 'apples', 'Kiwi', 'cherries' ]
 
 
+// SHOPPING LIST ARRAY
+// This is basically arrays inside an array.
+var shoppingList = [["milk" ,3], ["flour", 2], ["eggs" ,6], ["bananas" ,5]]
+console.log(shoppingList);
+//prints out the shopping list [ [ 'milk', 3 ], [ 'flour', 2 ], [ 'eggs', 6 ], [ 'bananas', 5 ] ].
+
+
+
 
 
 
