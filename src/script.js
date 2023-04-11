@@ -41,3 +41,11 @@ console.log(tot);
 /* Length of a string
 */
 
+
+var country = "Jamaica";
+var length = country.length;
+console.log(length);
+
+var firstName = "Janet";
+var firstNameLength = firstName.length;
+console.log(firstNameLength);
