@@ -55,4 +55,15 @@ console.log(firstNameLength);
 
 var firstLetterFirstName = "";
 var firstName = "Botanica";
-console.log(firstName[0]);
+var firstLetterFirstName = firstName[0]
+console.log(firstLetterFirstName);
+
+
+// String Immutability.
+// strings value cannot be changed.
+// You cannot replace a letter on a string eg;
+
+var myCity = "Nairobi";
+myCity[2] = "S"
+
+// This will outright cause an error since you cannot alter strings.
