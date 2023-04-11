@@ -83,6 +83,15 @@ reusableFunction ();
 // I have called the 'reusableFunction' 3 times hence hello world * 3.
 
 
+// ARGUMENTS.
+
+function totalNumber (a ,b){
+    console.log(a+b);
+}
+totalNumber (6,8);
+// Prints out 14. if it was any sign be it /,* or any other as long as its written correctly it would still be the appropriate figure.
+
+
 
 
 
