@@ -28,18 +28,36 @@ console.log(fruits);
 
 
 
-// Push() method on arrays.
+// PUSH() method on arrays.
 // It is used to add a new element at the end of an array.
 fruits.push("pears");
 console.log(fruits);
 // prints out [ 'mango', 'apples', 'Kiwi', 'cherries', 'pears' ]
 
 
-//pop() Method on arrays.
+//POP() Method on arrays.
 // It is used to remove the last element on an array.
 var lastFruit = fruits.pop(-1);
 console.log(lastFruit);
 // Prints out the lastfruit that has been removed (pears).
+
+
+// SHIFT method on arrays.
+// It is used to REMOVE the FIRST element on an array and return it to the new assigned variable.
+// This changes the default indexing of an array elements
+var firstFruit = fruits.shift();
+console.log(firstFruit);
+// prints out mango as its the first fruit and the one to be removed.
+console.log(fruits);
+// Prints out[ 'apples', 'Kiwi', 'cherries' ]
+
+
+// UNSHIFT Method on arrays.
+// It adds one or more elements to the BEGINNING of an array.
+var addedFruits = fruits.unshift("ovacado");
+console.log(fruits);
+// prints out [ 'ovacado', 'apples', 'Kiwi', 'cherries' ]
+
 
 
 
