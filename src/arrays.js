@@ -92,6 +92,24 @@ totalNumber (6,8);
 // Prints out 14. if it was any sign be it /,* or any other as long as its written correctly it would still be the appropriate figure.
 
 
+// SCOPE.
+// Scope in javascript refers to the area of a program where a variable or a function can be accessed.
+
+
+// GLOBAL SCOPE.
+// This refers to variables and functions that can be accessed from anywhere in the program including within functions.
+// When a variable or function id defined outside of any function.
+var globalVariable = "i am a global variable";
+
+// function globalFunction (){
+    console.log(globalVariable);
+
+
+// globalFunction();
+
+
+
+
 
 
 
