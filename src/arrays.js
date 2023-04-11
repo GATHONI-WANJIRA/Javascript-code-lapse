@@ -35,6 +35,17 @@ console.log(fruits);
 // prints out [ 'mango', 'apples', 'Kiwi', 'cherries', 'pears' ]
 
 
+//pop() Method on arrays.
+// It is used to remove the last element on an array.
+var lastFruit = fruits.pop(-1);
+console.log(lastFruit);
+// Prints out the lastfruit that has been removed (pears).
+
+
+
+
+
+
 
 
 
