@@ -120,6 +120,24 @@ lakersGlobal();
 //Prints out Kobe Bryant.
 
 
+// LOCAL SCOPE.
+// This refers to the inner most scope of variables and functions that are declared inside a block, a function or a module.
+// When a function or a variable is declared inside a block it means that it cannot be accessed outside that local scope or block/function.
+
+
+function myNames (){
+    var secondName = ("Gathoni");
+    console.log(secondName);
+}
+
+myNames();
+// Prints out Gathoni since we have called a variable that is within the function.
+// My variable(secondName) is declared inside my function (myNames).
+
+
+
+
+
 
 
 
