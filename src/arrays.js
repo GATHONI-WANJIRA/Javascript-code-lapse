@@ -101,11 +101,23 @@ totalNumber (6,8);
 // When a variable or function id defined outside of any function.
 var globalVariable = "i am a global variable";
 
-// function globalFunction (){
+ function globalFunction (){
     console.log(globalVariable);
+ }
 
+globalFunction();
+// Prints out "i am a global variable" 
+// Global variables are simply variables and sometimes functions that are not within functions.
 
-// globalFunction();
+var globalName = ("Kobe Bryant.");
+
+function lakersGlobal(){
+    console.log(globalName);
+}
+
+lakersGlobal();
+
+//Prints out Kobe Bryant.
 
 
 
