@@ -170,6 +170,14 @@ function outerFunction() {
 // outerFunction();
 
 
+// RETURN VALUE FROM FUNCTION.
+
+function minusTen (num){
+    return num - 10;
+    
+}
+console.log (minusTen(40));
+// It prints out 30.
 
 
 
