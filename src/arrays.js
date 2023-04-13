@@ -227,6 +227,20 @@ console.log("after" + JSON.stringify(testAgeArray));
 
 
 
+// BOOLEANS 
+// Booleans return a yes or no, true or false, on or off value.
+
+// IF STATEMENTS
+// Used to execute conditions.
+
+let age = 25;
+if  (age > 25);
+console.log("You can now date.");
+// Prints out you can now date since the condition to be executed is true.
+
+
+
+
 
 
 
