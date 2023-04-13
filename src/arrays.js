@@ -300,6 +300,33 @@ console.log(items(40));
 // I prints out Huge.
 
 
+// SWITCH STATEMENTS.
+// they are used in place of chained if statements.
+// They execute different blocks of code depending on the value or expression given.
+
+
+var day = 8;
+switch (day){
+    case 1:
+        console.log("Today is on a monday");
+        break;
+        case 2:
+            console.log("Today is on a tuesday");
+            break;
+            case 3:
+                console.log("Today is on a Wednesday");
+                break;
+                case 4:
+                    console.log("Today is on a thursday");
+                    break;
+                    case 5:
+                        console.log("Today is on a friday");
+                        break;
+                        default:
+                            console.log("Today is not a work day");
+
+}
+
 
 
 
