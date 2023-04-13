@@ -252,6 +252,26 @@ else {
 }
 // Prints out you cannot retire since the condition is false.
 
+// ELSE IF STATEMENTS.
+// Always remember that else statements come after if and elseif
+
+
+function debt(val){
+
+    if (val >= 100){
+    return "I'll pay the debt.";
+} 
+elseif (val <= 100) ;{
+    return "For go the debt.";
+} 
+// else {
+//  return "You are debt free.";
+//  }
+}
+
+
+console.log(debt(300));
+
 
 
 
