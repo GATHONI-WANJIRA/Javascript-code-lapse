@@ -272,6 +272,31 @@ else if (val <= 100) {
 
 console.log(debt(60));
 
+// Remember the chronological order is if,else if, else.
+// Else only gets executed should there be any foreign outcome from the first two outcomes expected and it doesnt have a condition.
+
+
+// CHAINED IF ELSE STATEMENTS.
+function items(value){
+
+    if (value < 5 ){
+        return "Tiny";
+    }
+    if (value < 10 ){
+        return "Small";   
+    }
+    if (value < 20 ){
+        return "Large";
+    }
+    else if (value >= 20){
+        return "Huge";
+    }
+}
+console.log(items(4));
+
+// This was an assignment from the freecode camp that i did and as lomg as it works perfectly i am assuming that i am right.
+
+
 
 
 
