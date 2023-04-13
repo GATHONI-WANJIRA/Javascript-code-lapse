@@ -183,9 +183,50 @@ console.log (minusTen(40));
 function addNumbers (a,b){
     return a+b;
 }
+// Call the function and assign the return value to a variable.
 let sum = addNumbers(5,9);
 console.log(sum);
 // It prints out 14.
+
+// STAND IN LINE.
+// You can use an array to implement a "QUEUE" data structure to manage a line of items and people waiting for a service.
+// This is achieved by removing the first item on the array and adding a new item at the end through shift().
+
+// Initialize an empty function
+// "array reps that its an array." "item is the number of items inside."
+
+function nextInline (array, item){
+    // "array.push(item)...-Means that we add one item at the end of testArray and print out the new formed array"
+    // "array.shift()" ...Means that we remove the first item in the testArray and return (prints out the removed item).
+    array.push(item);
+    return array.shift();
+}
+// Testing variable array.
+var testArray = [1,2,3,4,5];
+
+console.log("Before" + JSON.stringify(testArray));
+console.log(nextInline(testArray ,6));
+console.log("After" + JSON.stringify(testArray));
+
+// The first statement authorises printing out of the testArray variable just like it is initially.
+// second one adds 6 as an item and removes the first item rapidly as well while printing the after math.
+
+function nextAge (array , age){
+    array.push(age);
+    return array.shift();
+
+}
+var testAgeArray = [20,30,40,50,60];
+
+console.log("before"+ JSON.stringify(testAgeArray));
+// Prints out the before change of the array.
+console.log(nextAge( testAgeArray ,70));
+// The above calls the function, which contains both the push and shift element then assigns them to the array and assigns 70 as the new age.
+console.log("after" + JSON.stringify(testAgeArray));
+// This now adds 70 through push method and removes 20 through shift method.
+
+
+
 
 
 
