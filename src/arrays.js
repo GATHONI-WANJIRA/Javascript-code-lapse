@@ -261,16 +261,16 @@ function debt(val){
     if (val >= 100){
     return "I'll pay the debt.";
 } 
-elseif (val <= 100) ;{
+else if (val <= 100) {
     return "For go the debt.";
 } 
-// else {
-//  return "You are debt free.";
-//  }
+ else {
+  return "You are debt free.";
+ }
 }
 
 
-console.log(debt(300));
+console.log(debt(60));
 
 
 
