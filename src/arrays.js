@@ -180,6 +180,13 @@ console.log (minusTen(40));
 // It prints out 30.
 
 
+function addNumbers (a,b){
+    return a+b;
+}
+let sum = addNumbers(5,9);
+console.log(sum);
+// It prints out 14.
+
 
 
 
