@@ -277,26 +277,27 @@ console.log(debt(60));
 
 
 // CHAINED IF ELSE STATEMENTS.
+// This was an assignment from the freecode camp that i did and as lomg as it works perfectly i am assuming that i am right.
+
+
 function items(value){
 
     if (value < 5 ){
         return "Tiny";
     }
-    if (value < 10 ){
+    else if (value < 10 ){
         return "Small";   
     }
-    if (value < 20 ){
+    else if (value < 20 ){
         return "Large";
     }
-    else if (value >= 20){
+    else {
         return "Huge";
     }
 }
-console.log(items(4));
+console.log(items(40));
 
-// This was an assignment from the freecode camp that i did and as lomg as it works perfectly i am assuming that i am right.
-
-
+// I prints out Huge.
 
 
 
