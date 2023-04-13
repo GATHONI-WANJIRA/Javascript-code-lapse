@@ -164,7 +164,7 @@ function outerFunction() {
     innerFunction();
 
     // For outer function now which should refuse to work since it cannot access the inner variable.
-//     console.log(myInnerVariable);
+    //     console.log(myInnerVariable);
 
 }
 // outerFunction();
@@ -172,19 +172,19 @@ function outerFunction() {
 
 // RETURN VALUE FROM FUNCTION.
 
-function minusTen (num){
+function minusTen(num) {
     return num - 10;
-    
+
 }
-console.log (minusTen(40));
+console.log(minusTen(40));
 // It prints out 30.
 
 
-function addNumbers (a,b){
-    return a+b;
+function addNumbers(a, b) {
+    return a + b;
 }
 // Call the function and assign the return value to a variable.
-let sum = addNumbers(5,9);
+let sum = addNumbers(5, 9);
 console.log(sum);
 // It prints out 14.
 
@@ -195,32 +195,32 @@ console.log(sum);
 // Initialize an empty function
 // "array reps that its an array." "item is the number of items inside."
 
-function nextInline (array, item){
+function nextInline(array, item) {
     // "array.push(item)...-Means that we add one item at the end of testArray and print out the new formed array"
     // "array.shift()" ...Means that we remove the first item in the testArray and return (prints out the removed item).
     array.push(item);
     return array.shift();
 }
 // Testing variable array.
-var testArray = [1,2,3,4,5];
+var testArray = [1, 2, 3, 4, 5];
 
 console.log("Before" + JSON.stringify(testArray));
-console.log(nextInline(testArray ,6));
+console.log(nextInline(testArray, 6));
 console.log("After" + JSON.stringify(testArray));
 
 // The first statement authorises printing out of the testArray variable just like it is initially.
 // second one adds 6 as an item and removes the first item rapidly as well while printing the after math.
 
-function nextAge (array , age){
+function nextAge(array, age) {
     array.push(age);
     return array.shift();
 
 }
-var testAgeArray = [20,30,40,50,60];
+var testAgeArray = [20, 30, 40, 50, 60];
 
-console.log("before"+ JSON.stringify(testAgeArray));
+console.log("before" + JSON.stringify(testAgeArray));
 // Prints out the before change of the array.
-console.log(nextAge( testAgeArray ,70));
+console.log(nextAge(testAgeArray, 70));
 // The above calls the function, which contains both the push and shift element then assigns them to the array and assigns 70 as the new age.
 console.log("after" + JSON.stringify(testAgeArray));
 // This now adds 70 through push method and removes 20 through shift method.
@@ -234,9 +234,25 @@ console.log("after" + JSON.stringify(testAgeArray));
 // Used to execute conditions.
 
 let age = 25;
-if  (age > 25);
+if (age > 25);
 console.log("You can now date.");
 // Prints out you can now date since the condition to be executed is true.
+
+// ELSE STATEMENT.
+// Else statement is conditional and only gets executed if the if statement is not true.
+
+let yourAge = 20;
+
+if (yourAge >= 50) {
+    console.log("You can retire");
+}
+
+else {
+    console.log("You cannot retire");
+}
+// Prints out you cannot retire since the condition is false.
+
+
 
 
 
