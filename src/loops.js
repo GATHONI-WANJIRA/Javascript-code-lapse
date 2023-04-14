@@ -42,3 +42,10 @@ for (let i = 1; i <= 10; i+=2){
 }
 
 // Output 1,3,5,7,9.
+
+// COUNT BACKWARDS WITH A FOR-LOOP 
+
+for (let i =10; i>= 0; i--){
+    console.log(i);
+}
+// Outputs 10 all the way to 0.
