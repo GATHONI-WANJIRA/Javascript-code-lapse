@@ -8,4 +8,6 @@ var myDog = {
     color : "white",
     breed : "german",
 };
-console.log(myDog.names);
+// Accessing the properties using dot notation.
+console.log(myDog.breed);
+
