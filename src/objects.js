@@ -49,6 +49,26 @@ console.log(myDog.hasOwnProperty("names"));
 console.log(myDog.hasOwnProperty("email"));
 // Returns false since we dont have a property by word "email".
 
+// NESTED OBJECTS.
+// An object can have properties that are themselves objects and thats what is called nested objects.
+// Check out chemistry below.
+
+var subjects = {
+    Maths : 70 ,
+    History : 50,
+    chemistry : {
+        paper1 : 46 ,
+        paper2 : 48 ,
+        paper3 : 32 ,
+    },
+    English : 50 ,
+}
+console.log(subjects.chemistry.paper2);
+
+// It prints out 48 as assigned on chemistry paper 2.
+
+
+
 
 
 
