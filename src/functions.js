@@ -157,3 +157,17 @@ console.log(nextAge(testAgeArray, 70));
 console.log("after" + JSON.stringify(testAgeArray));
 // This now adds 70 through push method and removes 20 through shift method.
 
+
+// RETURN EARLY PATTERNS FOR FUNCTIONS.
+
+function examplefunc(values){
+    
+    if (values != 0){
+        
+        return "loaded";
+    }
+    else {
+        return "Invalid";
+    }
+}
+console.log(examplefunc(9));
