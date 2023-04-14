@@ -160,10 +160,10 @@ console.log("after" + JSON.stringify(testAgeArray));
 
 // RETURN EARLY PATTERNS FOR FUNCTIONS.
 
-function examplefunc(values){
-    
-    if (values != 0){
-        
+function examplefunc(values) {
+
+    if (values != 0) {
+
         return "loaded";
     }
     else {
@@ -171,3 +171,45 @@ function examplefunc(values){
     }
 }
 console.log(examplefunc(9));
+// Prints out loaded as it is executed early into the function.
+
+
+
+// COUNTING CARDS FUNCTIONS.
+// It works in that when you see a high count , the card goes up...low card the count goes low and the middle card the count stays the same.
+// When the count is positive the player should bet high, when negative or 0 the player should bet low.You use switch statements.
+
+
+// Cards 2-6 have a value of +1
+// Cards 7-9 have a value of 0
+// Cards 10-Ace have a value of -1
+
+function countCard(card) {
+    switch (card) {
+
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            return +1;
+        case 7:
+        case 8:
+        case 9:
+            return 0;
+        case 10:
+        case 11:
+        case "A":
+        case "K":
+            return -1;
+        default:
+            return "Invalid card";
+
+    }
+
+}
+console.log(countCard("U"));
+
+
+
+
