@@ -49,3 +49,20 @@ for (let i =10; i>= 0; i--){
     console.log(i);
 }
 // Outputs 10 all the way to 0.
+
+
+// ITERATE THROUGH AN ARRAY WITH A FOR LOOP.
+
+var fruits = ["apples", "kiwi", "bananas", "oranges"];
+for ( i = fruits.length = 3; i >= 0; i--){
+    console.log(i);
+}
+
+// Output 3,2,1,0
+
+
+var array =[ 1,2,3,4,5];
+for (var i = 0; i < array.length; i++){
+    console.log(array[i]);
+}
+// Output 1,2,3,4,5
