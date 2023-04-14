@@ -33,3 +33,7 @@ console.log (myDog.names);
 myDog.bark = "bark bark bark";
 console.log(myDog.bark);
 
+// Deleting properties from an object.
+
+delete myDog.age;
+console.log(myDog);
