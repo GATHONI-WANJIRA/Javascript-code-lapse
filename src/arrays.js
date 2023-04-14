@@ -66,3 +66,10 @@ console.log(shoppingList);
 //prints out the shopping list [ [ 'milk', 3 ], [ 'flour', 2 ], [ 'eggs', 6 ], [ 'bananas', 5 ] ].
 
 
+// NESTED ARRAYS.
+// This happens when an array has elements which themselves are arrays.
+
+var subjects = ["Maths", "History", ["Chemistry" , "paper1" , "paper2" , "paper3"] , "CRE" , "Busines"]
+
+console.log(subjects[2][2]);
+// Prints out paper2 since we accessed the [2] index which is chemistry and [2] index inside chemistry which is paper2.
