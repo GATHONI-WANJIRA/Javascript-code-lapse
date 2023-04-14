@@ -33,3 +33,12 @@ for (let i = 2;  (i <= 5); i++ ) {
     console.log(i);
 }
 // Output is 2,3,4 ,5.
+
+
+// ODD NUMBERS WITH A FOR-LOOP.
+
+for (let i = 1; i <= 10; i+=2){
+    console.log(i);
+}
+
+// Output 1,3,5,7,9.
