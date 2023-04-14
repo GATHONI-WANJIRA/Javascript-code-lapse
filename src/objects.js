@@ -11,3 +11,5 @@ var myDog = {
 // Accessing the properties using dot notation.
 console.log(myDog.breed);
 
+// Accessing the properties using bracket notation.
+console.log(myDog["color"]);
