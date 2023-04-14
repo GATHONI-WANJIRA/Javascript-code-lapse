@@ -37,3 +37,26 @@ console.log(myDog.bark);
 
 delete myDog.age;
 console.log(myDog);
+// It prints out the whole object but now without the bark property
+
+// Testing Objects for Properties.
+// You can test if an object has a specific property by using "hasOwnProperty()" method as shown.
+// This method returns a boolean value whether true or false.
+
+console.log(myDog.hasOwnProperty("names"));
+// Returns true since we have a property by word "names".
+
+console.log(myDog.hasOwnProperty("email"));
+// Returns false since we dont have a property by word "email".
+
+
+
+
+// OBJECTS FOR LOOKUPS.
+// An object for a lookup is a data structure that is used to quickly retrieve data from a set of values based on a specific key.
+
+
+// TO BE REVIEWED WITH A SOUND EXAMPLE CODE
+
+
+
