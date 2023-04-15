@@ -95,6 +95,29 @@ function capitalsLookup (capitals) {
 //  Output is Kampala.
 
 
+
+// PREVENT OBJECT MUTATION.
+// Sometimes you may need to protect the objects from any changes through the following methods.
+
+
+// 1.Object.freeze();
+
+const myData = { "age" : 23, "name" : "Noni"};
+
+Object.freeze(myData);
+// test if it will change my age to 10
+myData.age = 10;
+
+console.log(myData);
+// out put is the original object with nothing changed.
+
+
+// 2.object.seal();
+
+
+
+
+
 // RECORD COLLECTIONS.
 // used for data management and manipulation concepts
 
