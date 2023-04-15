@@ -126,6 +126,9 @@ console.log(towns);
 
 // Output is Nairobi value changes to 10.
 
+// 3.object.preventExtensions();
+// It works similar as object.seal(); 
+
 
 
 
