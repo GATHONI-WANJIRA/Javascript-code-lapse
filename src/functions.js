@@ -233,6 +233,14 @@ console.log(num);
 
 // Output is 123 which is nolonger a string but a number.
 
+let stringFigure = "1010";
+let number = parseInt (stringFigure,2);
+console.log(number);
+
+// Output is 10 and In this example, the parseInt() function is called with the string "1010" as its first argument and the radix of 2 as its second argument. The function returns the integer value 10, which is the binary representation of the number 1010.
+
+
+
 
 
 
