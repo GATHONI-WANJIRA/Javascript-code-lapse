@@ -66,3 +66,43 @@ for (var i = 0; i < array.length; i++){
     console.log(array[i]);
 }
 // Output 1,2,3,4,5
+
+
+// Nested For Loops.
+// Nested forloops means having one for loop inside another for loop.
+
+// The nested array.
+const numbers = [[1,2,3], [4,5,6], [7,8,9]];
+
+// Initialize the variable largestNumber and assign it to 1.
+// On each loop iteration we compare the element to the value of the largest number until the cycle ends.
+let largestNumber = numbers[0][0];
+
+// Now get another for loop inside this for loop (nest).
+for (let i = 0; i < numbers.length; i++){
+    for (let j = 0; j < numbers [i].length; j++ ){
+        if (numbers[i][j] > largestNumber){
+            largestNumber =numbers[i][j];
+        }
+
+
+    }
+
+
+}
+console.log(largestNumber);
+
+// it prints out 9.
+
+
+// DO-WHILE LOOPS
+// Do-while loop is basically a while loop that executes atleast once even if the condition of the while loop is false.
+
+let k = 0 ;
+do {
+    console.log(k);
+    k++;
+} 
+while (k > 5);
+
+// It prints out 0 even when the condition is false since 0 is not greater than 5.
