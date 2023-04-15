@@ -93,3 +93,24 @@ function wordBlanks(noun, Adjective, verb, adverb) {
 }
 console.log(wordBlanks("is", "very", "cold", "today"));
 // Prints out Kenya is very cold today .
+
+
+// Generate RANDOM FRACTIONS. 
+
+let randomFraction = Math.random();
+console.log ("Random fraction is " + randomFraction);
+
+// We use (Math.random) method to generate a number between 0-1. 0 inclusive.
+
+
+// GENERATE RANDOM WHOLE NUMBERS.
+
+let randomWholeNumber1 = Math.floor (Math.random() * 100 ) + 1;
+console.log("Random whole number is " + randomWholeNumber1);
+
+// We use (Math.floor) to round down the result of (math.random () * 100) which gives us a random number between 0-99, then  we add 1 to ensure the result is 0-100.
+// You can change the range of the whole number by adjusting the arguments inside. eg
+
+let randomWholeNumber2 = Math.floor (Math.random() * 49 ) + 1;
+console.log("Random whole number is " + randomWholeNumber2);
+
