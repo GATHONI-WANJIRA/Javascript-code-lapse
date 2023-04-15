@@ -21,6 +21,7 @@ var myName;// Assigning Variables
 
 // 3.SCOPE
 // Variables declared with var are function scoped meaning they can only be accessed within the function they are defined in or in a global scope if not in a function.
+// Var declared with let are only accessible to the code block or expression that they are declared in
 
 // 4.HOISTING
 // Variables declared with var are positioned ontop of the function or on the global scope meaning they can be accessed before they are declared and their value is null until they are assigned a value.
@@ -87,8 +88,6 @@ console.log(lastLetterTown);
 // print out i
 
 
-
-
 // STRING IMMUTABILITY..
 // strings value cannot be changed.
 // You cannot replace a letter on a string eg;
@@ -132,6 +131,15 @@ let randomWholeNumber2 = Math.floor (Math.random() * 49 ) + 1;
 console.log("Random whole number is " + randomWholeNumber2);
 
 // Output is any number below 50.
+
+// CONST KEYWORD.
+// Const is used to declare variables whose values cannot be reassigned.eg pi=3.14
+// Once a variable is declared with const, it cannot be changed unless its an object.
+
+
+
+
+
 
 
 
