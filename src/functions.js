@@ -177,10 +177,10 @@ console.log(examplefunc(9));
 
 // COUNTING CARDS FUNCTIONS.
 // It works in that when you see a high count , the card goes up...low card the count goes low and the middle card the count stays the same.
-// When the count is positive the player should bet high, when negative or 0 the player should bet low.You use switch statements.
+// When the count is positive the player should bet high, when negative or 0 the player should bet low.You use switch statement functions.
 
 
-// Cards 2-6 have a value of +1
+// Cards(case) 2-6 have a value of +1
 // Cards 7-9 have a value of 0
 // Cards 10-Ace have a value of -1
 
@@ -199,8 +199,10 @@ function countCard(card) {
             return 0;
         case 10:
         case 11:
-        case "A":
+        case "J":
+        case "Q":
         case "K":
+        case "A":
             return -1;
         default:
             return "Invalid card";
@@ -208,7 +210,30 @@ function countCard(card) {
     }
 
 }
-console.log(countCard("U"));
+console.log(countCard(17));
+// It prints out invalid card since 17 is not defined in the cards
+// Default means any other value not defined in the switch statements should give invalid card.
+// J,Q,K,A Means Jack, Queen, King, Ace.
+
+
+// parseINT () FUNCTIONS.
+// It is used to pass a string and convert it into an integer.
+// The function takes two arguments. First is the string then the radix which presents the base numeral figure in math system of the number to be returned as shown.
+// The basic structure.
+
+
+// parseInt(String,radix);
+
+
+// Example
+
+let string = "123";
+let num = parseInt(string);
+console.log(num);
+
+// Output is 123 which is nolonger a string but a number.
+
+
 
 
 
