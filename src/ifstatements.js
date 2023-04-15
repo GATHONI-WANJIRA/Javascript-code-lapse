@@ -112,8 +112,16 @@ console.log(isEven(9));
 // Prints out false since the conditionis a lie ..it does not remain 0 after dividing with 2.
 
 
+// TERNARY OPERATOR.
+// This is a shorthand way of writing if statement on a single line of code.
+// This is the pseudo code [condition ? value1 : value2]
 
 
-
+let aNumber = 3;
+let result = aNumber % 2 === 0? "evenNumber": "oddNumber";{
+    console.log(result);
+}
+// Output is an OddNumber
+// The program gets executed until the condition is true.
 
 
