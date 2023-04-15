@@ -69,14 +69,34 @@ console.log(subjects.chemistry.paper2);
 
 
 
-
-
-
 // OBJECTS FOR LOOKUPS.
 // An object for a lookup is a data structure that is used to quickly retrieve data from a set of values based on a specific key.
 
+function capitalsLookup (capitals) {
+     var city = "";
 
-// TO BE REVIEWED WITH A SOUND EXAMPLE CODE
+    var country = {
+        "Kenya" : "Nairobi" ,
+        "Tanzania" :"Dodoma" ,
+        "Rwanda" : "Kigali" ,
+        "Eritrea" : "Asmara" ,
+        "Uganda" : "kampala" ,
+        "Mauritius" : "port-louis" ,
+    
+    };
+
+    city = country[capitals];
+    return city;
+
+}
+
+    
+ console.log(capitalsLookup("Kenya"));
+//  Output is Kampala.
+
+
+// RECORD COLLECTIONS.
+// used for data management and manipulation concepts
 
 
 
