@@ -11,6 +11,23 @@ Number,String,Boolean,Undefined,Null,Object,Symbol.
 var myName = ("xxxxxxxx"); //Declaring Variables
 var myName;// Assigning Variables
 
+// VARIABLES AND LET KEYWORDS.
+
+// 1.REDECLARATION.
+// Variables declared with var can be redeclared within the same scope without causing an error while you cannot have 2 variables declared with let in the same scope.
+
+//2.STRICT-MODE.
+// Let is only declared in strict mode while var can be used either way.
+
+// 3.SCOPE
+// Variables declared with var are function scoped meaning they can only be accessed within the function they are defined in or in a global scope if not in a function.
+
+// 4.HOISTING
+// Variables declared with var are positioned ontop of the function or on the global scope meaning they can be accessed before they are declared and their value is null until they are assigned a value.
+// Variabes declared with let can be positioned on top of the function too although you cannot access them until they are declared.
+
+
+
 
 // INITIALIZING VARIABLES
 // Initializing variables is assigning them a value.
@@ -113,4 +130,8 @@ console.log("Random whole number is " + randomWholeNumber1);
 
 let randomWholeNumber2 = Math.floor (Math.random() * 49 ) + 1;
 console.log("Random whole number is " + randomWholeNumber2);
+
+// Output is any number below 50.
+
+
 
