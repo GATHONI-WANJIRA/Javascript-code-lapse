@@ -125,3 +125,12 @@ let result = aNumber % 2 === 0? "evenNumber": "oddNumber";{
 // The program gets executed until the condition is true.
 
 
+// MULTIPLE TERNARY OPERATOR.
+
+let ages = 9;
+let output = ages > 30 ? "An adult" : ages > 10 ? "A Teen " : "An infant" ;{
+    console.log(output);
+}
+
+// Output is an infant since both condition one and two did not get executed.
+
