@@ -101,6 +101,7 @@ function capitalsLookup (capitals) {
 
 
 // 1.Object.freeze();
+// This method prevents an object values or properties from being changed by freeze method.
 
 const myData = { "age" : 23, "name" : "Noni"};
 
@@ -113,6 +114,21 @@ console.log(myData);
 
 
 // 2.object.seal();
+// This method allows change of values in the properties but you cannot add new properties to it.
+
+const towns = {"Nairobi" : 001 , "kisumu" : 004};
+
+Object.seal(towns);
+
+towns.Nairobi = 10;
+
+console.log(towns);
+
+// Output is Nairobi value changes to 10.
+
+
+
+
 
 
 
