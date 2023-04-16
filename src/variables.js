@@ -162,5 +162,51 @@ greet("Janette");
 // Output is (hellojannette!) since we have assigned the name janette in the function parameter name.
 
 
+// TEMPLATE OPERATORS.
+// They are used with template literals to create dynamic strings. These operators are enclosed with backticks (`).
+// They allow insertion of functions , variables and expressions within a string.
+
+
+// 1.`${EXPRESSION}`
+// Used to insert the value of an expresion into a string.
+
+const name = "john"; 
+    console.log(`Hey ${name}`);
+
+    // Output is Hey John.
+
+// 2. `${CONDITION ? , EXPRESSION1 :, EXPRESSION2 :,}`
+// It allows the use of ternary expression within a template literal.
+
+const age = 10;
+console.log(`${age > 20? "Adult" : "A minor" }`);
+
+// Output is a minor since age is less than 20.
+
+// 3. `${VARIABLE LENGTH}
+// It allows you to get the length of an array or a string and insert a template literal.
+
+const towns = ["limuru", "Mombasa", "Kisumu", "Machakos"];
+console.log(`There are ${towns.length }  towns in this country.`)
+
+// OUTPUT IS There are 4 towns in this country.
+
+// 4.${FUNCTION() {...}}
+// Allows for the spread of a function with a template literal
+
+function countSum (k , j){
+    return k + j;
+}
+console.log(`The sum of 2 and 3 is ${countSum(2,3)}`);
+
+// OUTPUT is "The sum of 2 and 3 is 5."
+
+
+
+
+
+
+
+
 
 
