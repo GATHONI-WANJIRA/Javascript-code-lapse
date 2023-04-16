@@ -296,5 +296,18 @@ console.log(greatDigits);
 
 
 
+// MAP METHODS.
+// Map () is used to create a new array by applying a new function to each element in the array.
+
+
+let origiArray = [2,4,6,8,10];
+let newArray = origiArray.map(function(currentValue){
+    return(currentValue * currentValue);
+});
+console.log(newArray);
+
+// Output is [4,16,36,64,100] which is the squares of each currentValue in the original array.
+
+
 
 
