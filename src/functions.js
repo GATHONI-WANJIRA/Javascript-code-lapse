@@ -308,6 +308,19 @@ console.log(newArray);
 
 // Output is [4,16,36,64,100] which is the squares of each currentValue in the original array.
 
+// GETTERS AND SETTERS 
+// This are functions that are used to retrieve and set the values of an object's properties.
+
+const person = {
+    firstname : "Noni",
+    Lastname : "Gathoni", 
+
+    get fullname() {
+        return `${this.firstname} ${this.Lastname}`;
+    }
+};
+console.log(person.fullname);
 
 
+// Output Noni Gathoni
 
