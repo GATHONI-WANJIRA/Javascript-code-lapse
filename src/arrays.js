@@ -69,7 +69,67 @@ console.log(shoppingList);
 // NESTED ARRAYS.
 // This happens when an array has elements which themselves are arrays.
 
-var subjects = ["Maths", "History", ["Chemistry" , "paper1" , "paper2" , "paper3"] , "CRE" , "Busines"]
+var subjects = ["Maths", "History", ["Chemistry", "paper1", "paper2", "paper3"], "CRE", "Busines"]
 
 console.log(subjects[2][2]);
 // Prints out paper2 since we accessed the [2] index which is chemistry and [2] index inside chemistry which is paper2.
+
+
+// PROFILE LOOK-UP
+// involve searching through an array of objects containing profile information for a specific person based on a given criteria such as their name or ID. 
+
+// Create an array with objects inside.
+// let profiles = [
+//     {
+//         "id": 6061,
+//         "name": "liam",
+//         "occupation": "coder",
+//         "age": 21,
+//     },
+//     {
+//         "id": 6062,
+//         "name": "lilo",
+//         "occupation": "marketer",
+//         "age": 22,
+//     },
+//     {
+//         "id": 6063,
+//         "name": "Ricky",
+//         "occupation": "farmer",
+//         "age": 23,
+//     },
+//     {
+//         "id": 6064,
+//         "name": "lily",
+//         "occupation": "actress",
+//         "age": 25,
+//     }
+// ];
+
+// Define a function to search for a profile based on name or id.
+
+// function profileLookUp(jina, prop){
+//     for (m = 0; m < profiles.length; i++){
+//         if (profiles[m].name === jina){
+
+//         }
+
+//     }
+
+// }
+
+
+// REST OPERATOR.
+// It is used to represent an indifinite number of elements in an array and it is denoted by (...digits) three dots and the name of a parameter
+// It allows a function to have as many numbers of a parameter as it can
+
+function sum (...numbers){
+    let total = 0;
+    for (let number of numbers){
+        total+=number;
+    }
+    return total;
+}
+console.log(sum(4,4,4,4));
+
+// Output is 16 since it totals up all the numbers (sum).
