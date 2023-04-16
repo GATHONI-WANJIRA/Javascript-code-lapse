@@ -266,8 +266,33 @@ console.log("Hello guys");
 message();
 
 
+// FILTER METHODS.
+// They are methods that allow you to filter elements in an existing array and return a new array with only elements that fits the criteria for the new array.
 
 
+let numbers = [1,2,3,4,5,6,7,8,9];
+
+// Num function represents individual elements in the array that will be checked to see if they are divisible by 2.
+
+let evenNumbers = numbers.filter(function(num){
+    return (num % 2 === 0);
+
+
+});
+console.log(evenNumbers);
+
+// Output is [2,4,6,8]
+
+
+let digits = [2,8,10,14,59,86,45];
+
+let greatDigits = digits.filter(function(digitNumber){
+    return (digitNumber > 10);
+
+})
+console.log(greatDigits);
+
+// Output [14,59,86,45] ... All numbers greater than 10.
 
 
 
