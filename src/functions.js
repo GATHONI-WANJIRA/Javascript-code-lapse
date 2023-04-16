@@ -240,6 +240,33 @@ console.log(number);
 // Output is 10 and In this example, the parseInt() function is called with the string "1010" as its first argument and the radix of 2 as its second argument. The function returns the integer value 10, which is the binary representation of the number 1010.
 
 
+// ARROW FUNCTIONS.
+// They are a shorthand syntax for writing anonymous functions in javascript.
+
+const summation = (a,b) => a + b;
+console.log(summation(3,6));
+
+// Output is 9
+
+
+const diffrence = (c,d) => d-c;
+console.log(diffrence(6,9));
+
+// Output is 3.
+
+
+const square = (numSquare) => numSquare * numSquare;
+console.log(square(8));
+
+// Output is 64.
+
+
+const message = () =>
+console.log("Hello guys");
+message();
+
+
+
 
 
 
