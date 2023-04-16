@@ -130,6 +130,16 @@ console.log(towns);
 // It works similar as object.seal(); 
 
 
+// SIMPLE FIELDS.
+// They refer to the shorthand notation for defining object properties that have the same name as  that variables in the same scope.
+
+
+const data = (height, color, tribe) => ({height, color, tribe});
+console.log(data(5, "black" , "luo"));
+
+// OUTPUT IS {height : 5, color : "black", tribe : "luo"}
+
+
 
 
 
