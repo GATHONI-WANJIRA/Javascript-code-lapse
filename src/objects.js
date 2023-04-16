@@ -140,6 +140,26 @@ console.log(data(5, "black" , "luo"));
 // OUTPUT IS {height : 5, color : "black", tribe : "luo"}
 
 
+// CLASS SYNTAX.
+
+class rectangle {
+    constructor(height,width){
+        this.height = height;
+        this.width = width;
+    
+    }
+    getArea() {
+        return this.height * this.width;
+    }
+    getPerimeter (){
+        return 2 * (this.height + this.width);
+    }
+
+}
+let rect = new rectangle (5,8);
+console.log(rect.getArea());
+
+// OUTPUT is 40.
 
 
 
