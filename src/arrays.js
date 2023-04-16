@@ -133,3 +133,42 @@ function sum (...numbers){
 console.log(sum(4,4,4,4));
 
 // Output is 16 since it totals up all the numbers (sum).
+
+
+// SPREAD OPERATOR.
+// Its is used to spread the contents of an iterable object ie, array or object into another iterable object or another function argument list.
+
+// It is often represented by three dots only (...) .
+
+
+// To spread an array into another array
+
+const array1 = [1,2,3,4,5];
+const array2 = [...array1 , 6,7,8,9,10];
+console.log(array2);
+
+// To spread an object into another object.
+
+const tens1 = {  "tens1" : 10, "tens2" : 20,"tens3" : 30, "tens4" : 40 ,}
+const tens2 = {...tens1,"tens5" : 50,"tens6" : 60,"tens7" : 70, "tens8" : 80,}
+console.log(tens2);
+
+// Output is all the contents of tens1 and tens2 combined.
+
+// To spread an array into a function.
+
+function myFunction (x,y,z){
+    console.log(myFunction);
+}
+
+const array = [1,2,3];
+myFunction(...array);
+
+
+// To copy an array or an object.
+
+const origiArray = [1,2,3,4];
+const copyOrigiArray = [...origiArray];
+console.log(copyOrigiArray);
+
+// Output is the elements of the original array copied.
