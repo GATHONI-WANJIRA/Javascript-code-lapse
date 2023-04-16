@@ -137,8 +137,29 @@ console.log("Random whole number is " + randomWholeNumber2);
 // Once a variable is declared with const, it cannot be changed unless its an object.
 
 
+// DEFAULT PARAMETERS.
+// Default parameters allow you to specify default parameters incase they are not put when the function is called.
+
+function multiply (a , b = a * 3){
+    return (a * b);
+}
+console.log(multiply(10));
+// Output is 300.
+
+// 3, is the default value .... a is 10.... for execution to get b you multiply a * 3= (10 * 3) and you get 30 which in return when you multiply it by 10 (a) you get 300.
 
 
+function greet(name = "friend"){
+    console.log("hello" + name + "!");
+}
+
+greet();
+
+// Output is (Hellofriend)  since theres no name assigned while calling the function.
+
+greet("Janette");
+
+// Output is (hellojannette!) since we have assigned the name janette in the function parameter name.
 
 
 
