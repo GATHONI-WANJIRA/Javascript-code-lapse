@@ -1,2 +1,2 @@
 // The Odin Project javascript
-// Lets do the exam 
+// Lets do the 
